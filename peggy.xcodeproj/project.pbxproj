@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B344153121DC1C4A009F571E /* Purple Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B344153021DC1C4A009F571E /* Purple Icon.png */; };
+		B33C88FF21DCC3B600B0CFB6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C88FE21DCC3B600B0CFB6 /* RoundButton.swift */; };
 		B3DC2A3D21D5797B00F3302D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC2A3C21D5797B00F3302D /* AppDelegate.swift */; };
 		B3DC2A3F21D5797B00F3302D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC2A3E21D5797B00F3302D /* ViewController.swift */; };
 		B3DC2A4221D5797B00F3302D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DC2A4021D5797B00F3302D /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B344153021DC1C4A009F571E /* Purple Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Purple Icon.png"; path = "../../../Design Assets/Purple Icon.png"; sourceTree = "<group>"; };
+		B33C88FE21DCC3B600B0CFB6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		B3DC2A3921D5797B00F3302D /* peggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DC2A3C21D5797B00F3302D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3DC2A3E21D5797B00F3302D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,18 +37,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B344152F21DC1C30009F571E /* images */ = {
-			isa = PBXGroup;
-			children = (
-				B344153021DC1C4A009F571E /* Purple Icon.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		B3DC2A3021D5797B00F3302D = {
 			isa = PBXGroup;
 			children = (
-				B344152F21DC1C30009F571E /* images */,
 				B3DC2A3B21D5797B00F3302D /* peggy */,
 				B3DC2A3A21D5797B00F3302D /* Products */,
 			);
@@ -71,6 +62,7 @@
 				B3DC2A4321D5797B00F3302D /* Assets.xcassets */,
 				B3DC2A4521D5797B00F3302D /* LaunchScreen.storyboard */,
 				B3DC2A4821D5797B00F3302D /* Info.plist */,
+				B33C88FE21DCC3B600B0CFB6 /* RoundButton.swift */,
 			);
 			path = peggy;
 			sourceTree = "<group>";
@@ -136,7 +128,6 @@
 				B3DC2A4721D5797B00F3302D /* LaunchScreen.storyboard in Resources */,
 				B3DC2A4421D5797B00F3302D /* Assets.xcassets in Resources */,
 				B3DC2A4221D5797B00F3302D /* Main.storyboard in Resources */,
-				B344153121DC1C4A009F571E /* Purple Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33C88FF21DCC3B600B0CFB6 /* RoundButton.swift in Sources */,
 				B3DC2A3F21D5797B00F3302D /* ViewController.swift in Sources */,
 				B3DC2A3D21D5797B00F3302D /* AppDelegate.swift in Sources */,
 			);
