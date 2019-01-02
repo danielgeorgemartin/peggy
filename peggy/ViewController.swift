@@ -13,10 +13,11 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var pageControl : UIPageControl!
     @IBOutlet weak var scrollView : UIScrollView!
     
-    var images: [String] = ["0", "1", "2"]
+    var images: [String] = ["Getting-Started-1", "Getting-Started-2", "Getting-Started-3"]
     var frame = CGRect(x : 0, y : 0, width : 0, height : 0)
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         pageControl.numberOfPages = images.count
@@ -39,6 +40,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         let pageNumber = scrollView.contentOffset.x / scrollView.frame.size.width
         pageControl.currentPage = Int (pageNumber)
     }
+    
 
 }
 
