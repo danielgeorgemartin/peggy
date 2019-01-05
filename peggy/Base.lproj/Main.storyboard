@@ -349,7 +349,7 @@
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
-                                            <segue destination="AnE-SC-6vE" kind="show" id="cUK-yx-85k"/>
+                                            <segue destination="AnE-SC-6vE" kind="show" id="laV-qC-HiU"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -620,7 +620,7 @@
         <!--Experience Peggy in 3D Page-->
         <scene sceneID="XtA-HN-KEr">
             <objects>
-                <viewController id="AnE-SC-6vE" userLabel="Experience Peggy in 3D Page" sceneMemberID="viewController">
+                <viewController id="AnE-SC-6vE" userLabel="Experience Peggy in 3D Page" customClass="ARViewController" customModule="peggy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xzS-Pa-b9u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -639,15 +639,22 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.41993719340000002" green="0.26939114930000002" blue="0.4627633095" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oia-RE-OQb">
+                                <rect key="frame" x="0.0" y="188" width="414" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VwU-mm-OSc"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="sceneView" destination="Oia-RE-OQb" id="uwi-Ge-jvk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Rd-jb-WSS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4416" y="2417"/>
+            <point key="canvasLocation" x="4415.9420289855079" y="2416.7410714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FU4-pa-s9X">

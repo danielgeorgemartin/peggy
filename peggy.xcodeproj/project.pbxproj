@@ -13,6 +13,8 @@
 		B3DC2A4221D5797B00F3302D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DC2A4021D5797B00F3302D /* Main.storyboard */; };
 		B3DC2A4421D5797B00F3302D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DC2A4321D5797B00F3302D /* Assets.xcassets */; };
 		B3DC2A4721D5797B00F3302D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DC2A4521D5797B00F3302D /* LaunchScreen.storyboard */; };
+		B3EBACC221E10782005E979D /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBACC121E10782005E979D /* ARViewController.swift */; };
+		B3EBACC421E107A1005E979D /* peggy.scn in Resources */ = {isa = PBXBuildFile; fileRef = B3EBACC321E107A1005E979D /* peggy.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B3DC2A4321D5797B00F3302D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3DC2A4621D5797B00F3302D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3DC2A4821D5797B00F3302D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3EBACC121E10782005E979D /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		B3EBACC321E107A1005E979D /* peggy.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = peggy.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			children = (
 				B3DC2A3B21D5797B00F3302D /* peggy */,
 				B3DC2A3A21D5797B00F3302D /* Products */,
+				B3EBACC321E107A1005E979D /* peggy.scn */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +63,7 @@
 			children = (
 				B3DC2A3C21D5797B00F3302D /* AppDelegate.swift */,
 				B3DC2A3E21D5797B00F3302D /* ViewController.swift */,
+				B3EBACC121E10782005E979D /* ARViewController.swift */,
 				B3DC2A4021D5797B00F3302D /* Main.storyboard */,
 				B3DC2A4321D5797B00F3302D /* Assets.xcassets */,
 				B3DC2A4521D5797B00F3302D /* LaunchScreen.storyboard */,
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					B3DC2A3821D5797B00F3302D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -128,6 +135,7 @@
 				B3DC2A4721D5797B00F3302D /* LaunchScreen.storyboard in Resources */,
 				B3DC2A4421D5797B00F3302D /* Assets.xcassets in Resources */,
 				B3DC2A4221D5797B00F3302D /* Main.storyboard in Resources */,
+				B3EBACC421E107A1005E979D /* peggy.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +149,7 @@
 				B33C88FF21DCC3B600B0CFB6 /* RoundButton.swift in Sources */,
 				B3DC2A3F21D5797B00F3302D /* ViewController.swift in Sources */,
 				B3DC2A3D21D5797B00F3302D /* AppDelegate.swift in Sources */,
+				B3EBACC221E10782005E979D /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23RXUPBC47;
 				INFOPLIST_FILE = peggy/Info.plist;
@@ -295,6 +305,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dmart.peggy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23RXUPBC47;
 				INFOPLIST_FILE = peggy/Info.plist;
@@ -313,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dmart.peggy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
