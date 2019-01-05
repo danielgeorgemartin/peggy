@@ -14,12 +14,16 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet weak var sceneView: ARSCNView!
     
+    private var hud : MBProgressHUD!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // load in textures for 3D model
         self.sceneView.autoenablesDefaultLighting = true
         
+        self.hud = MBProgressHUD.showAdded(to: self.sceneView, animated: true)
+        self.hud.label.text = "Detecting Peggy"
         
         // Set the view's delegate
         sceneView.delegate = self
@@ -119,7 +123,10 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         // check that the correct plane is detected
         if anchor is ARPlaneAnchor {
             
-
+            DispatchQueue.main.sync {
+                self.hud.label.text = "Peggy Detected"
+                self.hud.hide(animated: true, afterDelay: 0.5)
+            }
             
         }
     }
