@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B309EAB421E2819600D00AFB /* IRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309EAB321E2819600D00AFB /* IRViewController.swift */; };
 		B33C88FF21DCC3B600B0CFB6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C88FE21DCC3B600B0CFB6 /* RoundButton.swift */; };
 		B3DC2A3D21D5797B00F3302D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC2A3C21D5797B00F3302D /* AppDelegate.swift */; };
 		B3DC2A3F21D5797B00F3302D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC2A3E21D5797B00F3302D /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B309EAB321E2819600D00AFB /* IRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRViewController.swift; sourceTree = "<group>"; };
 		B33C88FE21DCC3B600B0CFB6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		B3DC2A3921D5797B00F3302D /* peggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DC2A3C21D5797B00F3302D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				B3DC2A3C21D5797B00F3302D /* AppDelegate.swift */,
 				B3DC2A3E21D5797B00F3302D /* ViewController.swift */,
 				B3EBACC121E10782005E979D /* ARViewController.swift */,
+				B309EAB321E2819600D00AFB /* IRViewController.swift */,
 				B3DC2A4021D5797B00F3302D /* Main.storyboard */,
 				B3EBACD221E11432005E979D /* MBProgressHUD.h */,
 				B3EBACD321E11432005E979D /* MBProgressHUD.m */,
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B33C88FF21DCC3B600B0CFB6 /* RoundButton.swift in Sources */,
+				B309EAB421E2819600D00AFB /* IRViewController.swift in Sources */,
 				B3DC2A3F21D5797B00F3302D /* ViewController.swift in Sources */,
 				B3EBACD421E11432005E979D /* MBProgressHUD.m in Sources */,
 				B3DC2A3D21D5797B00F3302D /* AppDelegate.swift in Sources */,

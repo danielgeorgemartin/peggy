@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var pageControl : UIPageControl!
