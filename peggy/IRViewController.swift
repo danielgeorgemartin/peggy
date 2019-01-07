@@ -70,13 +70,13 @@ class IRViewController: UIViewController, ARSCNViewDelegate {
             
             node.addChildNode(planeNode)
             
-            if let peggyScene = SCNScene(named: "peggy.scn") {
+            if let peggyScene = SCNScene(named: "peggy-small.scn") {
                 
                 if let peggyNode = peggyScene.rootNode.childNodes.first {
                     
+                    // normal rotation
                     peggyNode.eulerAngles.x = .pi / 2
                     peggyNode.eulerAngles.z = .pi / 2
-
                     
                     planeNode.addChildNode(peggyNode)
                     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B301B17121E4076200D2C009 /* peggy-small.scn in Resources */ = {isa = PBXBuildFile; fileRef = B301B17021E4076200D2C009 /* peggy-small.scn */; };
 		B309EAB421E2819600D00AFB /* IRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309EAB321E2819600D00AFB /* IRViewController.swift */; };
 		B33C88FF21DCC3B600B0CFB6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C88FE21DCC3B600B0CFB6 /* RoundButton.swift */; };
 		B3DC2A3D21D5797B00F3302D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC2A3C21D5797B00F3302D /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B301B17021E4076200D2C009 /* peggy-small.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "peggy-small.scn"; sourceTree = "<group>"; };
 		B309EAB321E2819600D00AFB /* IRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRViewController.swift; sourceTree = "<group>"; };
 		B33C88FE21DCC3B600B0CFB6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		B3DC2A3921D5797B00F3302D /* peggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,7 @@
 				B3DC2A3B21D5797B00F3302D /* peggy */,
 				B3DC2A3A21D5797B00F3302D /* Products */,
 				B3EBACC321E107A1005E979D /* peggy.scn */,
+				B301B17021E4076200D2C009 /* peggy-small.scn */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B301B17121E4076200D2C009 /* peggy-small.scn in Resources */,
 				B3DC2A4721D5797B00F3302D /* LaunchScreen.storyboard in Resources */,
 				B3DC2A4421D5797B00F3302D /* Assets.xcassets in Resources */,
 				B3DC2A4221D5797B00F3302D /* Main.storyboard in Resources */,

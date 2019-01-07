@@ -5,7 +5,10 @@
   },
   "resources" : [
     {
-      "filename" : "A4.arreferenceimage"
+      "filename" : "peggy-a4.arreferenceimage"
+    },
+    {
+      "filename" : "peggy-playingcard.arreferenceimage"
     }
   ]
 }
